@@ -1,0 +1,253 @@
+body .container{
+	font-size:13px;
+	overflow-x:hidden;
+	box-sizing:border-box;
+}	
+body h2{
+	font-size:1.46em;
+	margin-top:0;
+}
+ body .header{
+	margin-top:10px;
+	margin-bottom:20px;
+ }
+.container .nav.navbar-nav li a{
+	color:white;
+	font-size:1.15em;
+}
+.container .nav.navbar-nav li a.active{
+	color:#CA3473;
+	font-weight:bold;
+}
+.container .nav.navbar-nav li a:active{
+	background:#FFF;
+	font-weight:bold;
+	color:#CA3473;
+}
+.container .nav.navbar-nav li a.active:hover,
+.container .nav.navbar-nav li a.active:focus{
+	background:#FFF;
+}
+.container .nav li a:hover,
+.container .nav li a:focus{
+	background:#e82768;
+}
+.container .navbar-toggle{
+  padding-right:0;
+	margin-right:0;
+}
+.nav.navbar-nav li:first-child{
+	background:#fff;	
+}
+.navbar-collapse{
+	background:#e82768;
+}
+span .twitter-link{
+	color:#D98B70;
+}
+.logo img{
+  padding-bottom:10px;
+}
+.container #navHeaderCollapse{
+	margin-left:0px;
+	margin-right:0px;
+}
+.container .nav.nav-menu{
+  clear:right;
+  margin-right:-15px;
+}
+.container .follow-us{
+	margin-right:0px;
+}
+html body{
+	font-family:Arial, Helvetica, sans-serif;
+}
+#myslider ol {
+	position:relative;
+	bottom: 25px;
+	display:table;
+	margin:auto;
+	background-color:#fff;
+	padding:10px;
+	border-radius:10px;
+}
+#myslider .item img{
+	width:100%;
+}
+#myslider ol li{
+	padding-left:10px;
+	padding-right:10px;
+	cursor:pointer;
+}
+.read-more{
+	background:#F45D2B;
+	border:1px solid #F45D2B;
+	border-radius:1px;
+	padding:3px 4px;
+	color:white;
+}
+.right-content{
+	margin-bottom:30px;
+}
+.right-content h2{
+	color:black;
+}
+.right-content img{
+	width:100%;
+}
+.left-main .services-menu h2{
+	padding: 15px 0 0 8px;	
+	color:white;
+}
+.left-main .services-menu{
+	background-color:	#CA3473;	
+}
+.services-menu a{
+	color:white;
+}
+.services-menu ul li{
+	padding: 8px 0 4px 8px;
+	border-bottom: 1px solid white;
+}
+.services-menu ul li:last-child{
+	border-bottom: none;
+	padding-bottom: 15px;
+}
+.event-description{
+	background:#992856;
+	margin-top:22px;
+	padding: 2px 15px 2px 15px;
+}
+.event-description h2{
+	padding-bottom: 10px;
+	color:white;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+.event-description h3{
+	color:white;
+	font-size:1.16em;
+	margin-bottom:2px;
+	margin-top:10px;
+}
+.event-description p{
+  color:white;
+	margin-right:15px;
+	margin-bottom:15px;
+}
+.right-content p {
+	margin-bottom:15px;
+}	 
+.footer .border-top{
+	border-top:1px solid #888888;
+	margin-top:10px;
+}
+.footer  a{
+	color:#333;
+}
+.footer li {
+	padding-right:20px;
+	}
+.footer  ul{
+	padding-left:0px;
+	margin-top:15px;
+}
+.footer .copyright{
+	border-right:1px solid gray;
+	padding-right:5px;
+}
+@media screen and (max-width:767px){
+	body .header{
+		margin-bottom:10px;
+	}
+  .footer .border-top{
+		margin-top:30px;
+	}
+	.footer li{
+		list-style-type:none;
+		padding-top:5px;
+		padding-right:0;
+		text-align:center;
+	}
+	.footer li:last-child{
+		margin-bottom:15px;
+	}
+	.footer ul{
+	  margin-top:5px;
+	}
+	.footer hr{
+		margin-top:30px;
+		margin-bottom:10px;
+	}
+	.footer .copyright-privacy-policy{
+		margin:auto;
+		display:table;
+		margin-bottom:20px;
+	}
+	.right-content p{
+		padding-top:10px;
+	}
+	body {
+		min-width:310px;
+	}
+}	
+@media screen and (min-width: 768px){
+	.header .border-bottom{
+		border-bottom:2px solid #c9c9ca;
+  }
+	.container .collapse.navbar-collapse ul a{
+    color:#6b6a6a;
+    padding-right:0;
+	  padding-left:0;
+  }
+	.container .collapse.navbar-collapse ul li{
+		margin-left:15px;
+  }
+  .container .nav.navbar-nav li a:hover,
+	.container .nav.navbar-nav li a:focus{
+		background:#fff;
+  }
+  .navbar-collapse{
+		background:#fff;
+	}
+  .services-menu a{
+		font-size:1.076em;
+  }	
+	.footer li{
+		display:inline;
+		float:left;
+	}
+	.footer .copyright-privacy-policy{
+		float:right;
+		margin-bottom:15px;
+	}
+}
+@media screen and (min-width:768px) and (max-width:992px){
+	.footer li {
+		padding-right:15px;
+	}
+}
+@media screen and (min-width :992px){
+	.right-content:first-child h2{
+		padding-top:5px;
+		padding-bottom:4px;
+	}
+  .container .collapse.navbar-collapse ul a{
+    padding-left:0;
+  }
+	.container .collapse.navbar-collapse ul li{ 
+    margin-left:35px;
+  }
+}	
+@media screen and (min-width:1200px){
+	body .container{
+		font-size:15px;
+	}
+	.services-menu ul li{
+		padding: 10px 0 6px 8px;
+  }
+
+}
+
+	
+	
